@@ -1,0 +1,14 @@
+best_epoch=130
+best_val_mse=1.34835527e-05
+test_mse=6.00317571e-06
+per_output_test_mse:
+  r=2.423600e-05
+  latitude=1.407736e-05
+  longitude=3.522963e-06
+  heading=2.640550e-06
+  flight_path=4.849356e-06
+  CD=7.503549e-06
+  CL=3.413942e-07
+  airspeed=1.558806e-07
+  q_dot=2.492055e-06
+  g_load=2.126487e-07

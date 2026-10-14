@@ -1,0 +1,68 @@
+========================================================================
+  ALL                                                           
+========================================================================
+metric                                         baseline             AI
+------------------------------------------------------------------------
+n runs                                              500            500
+heat-flux violation rate [%]                      10.20           4.60
+g-load violation rate [%]                          0.40           0.40
+reached-target rate [%]                           87.60          85.00
+mean peak heat flux [kW/m^2]                     515.51         513.69
+max  peak heat flux [kW/m^2]                     562.42         610.05
+mean peak g-load [-]                               2.08           2.09
+max  peak g-load [-]                               3.12           3.61
+mean final angular dist [deg]                      0.77           0.76
+Success [%]                                       81.40          81.80
+Acceptable [%]                                     8.40          13.60
+Fail [%]                                          10.20           4.60
+mean compute time / sim [s]                       61.07          98.41
+median compute time / sim [s]                     64.23         106.32
+------------------------------------------------------------------------
+paired pairs: 500 | baseline violated: 51 | AI fixed: 28 | AI new-violation: 0
+========================================================================
+
+========================================================================
+  NO-WIND                                                       
+========================================================================
+metric                                         baseline             AI
+------------------------------------------------------------------------
+n runs                                              250            250
+heat-flux violation rate [%]                       9.20           4.00
+g-load violation rate [%]                          0.40           0.40
+reached-target rate [%]                           86.40          84.00
+mean peak heat flux [kW/m^2]                     515.31         513.52
+max  peak heat flux [kW/m^2]                     556.81         595.09
+mean peak g-load [-]                               2.08           2.10
+max  peak g-load [-]                               3.00           3.44
+mean final angular dist [deg]                      0.76           0.76
+Success [%]                                       80.00          80.40
+Acceptable [%]                                    10.80          15.60
+Fail [%]                                           9.20           4.00
+mean compute time / sim [s]                       56.41          86.22
+median compute time / sim [s]                     62.96         102.11
+------------------------------------------------------------------------
+paired pairs: 250 | baseline violated: 23 | AI fixed: 13 | AI new-violation: 0
+========================================================================
+
+========================================================================
+  WIND                                                          
+========================================================================
+metric                                         baseline             AI
+------------------------------------------------------------------------
+n runs                                              250            250
+heat-flux violation rate [%]                      11.20           5.20
+g-load violation rate [%]                          0.40           0.40
+reached-target rate [%]                           88.80          86.00
+mean peak heat flux [kW/m^2]                     515.71         513.86
+max  peak heat flux [kW/m^2]                     562.42         610.05
+mean peak g-load [-]                               2.07           2.09
+max  peak g-load [-]                               3.12           3.61
+mean final angular dist [deg]                      0.77           0.77
+Success [%]                                       82.80          83.20
+Acceptable [%]                                     6.00          11.60
+Fail [%]                                          11.20           5.20
+mean compute time / sim [s]                       65.73         110.60
+median compute time / sim [s]                     64.83         108.13
+------------------------------------------------------------------------
+paired pairs: 250 | baseline violated: 28 | AI fixed: 15 | AI new-violation: 0
+========================================================================

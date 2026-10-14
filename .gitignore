@@ -1,0 +1,17 @@
+# Large data and simulation folders — not tracked in git
+Training_Simulations/
+SimulationOutput/
+PINN_Tensors/
+Archive_Superseded/
+
+# Generated model weights and scalers
+*.pt
+*.pkl
+
+# Other binary / generated file types
+*.dat
+*.json
+
+# Python cache
+__pycache__/
+*.pyc

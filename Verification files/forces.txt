@@ -1,0 +1,42 @@
+ Number of output variables                         19
+
+ 
+
+                         (  1) time                  1
+
+                         (  2) height                2
+
+                         (  3) longitude             3
+
+                         (  4) latitude              4
+
+                         (  5) alpha_ground          8
+
+                         (  6) sigma_ground         10
+
+                         (  7) drag force           17
+
+                         (  8) side force           18
+
+                         (  9) lift force           19
+
+                         ( 10) Fg in r              36
+
+                         ( 11) Fg in tau            37
+
+                         ( 12) Fg in delta          38
+
+                         ( 13) deltab_trim          71
+
+                         ( 14) deltae_trim          72
+
+                         ( 15) dFc drag             82
+
+                         ( 16) dFc side             83
+
+                         ( 17) dFc lift             84
+
+                         ( 18) Mach number          96
+
+                         ( 19) qdyn                 98
+

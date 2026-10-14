@@ -1,0 +1,22 @@
+ Number of output variables                         20
+ 
+                         (  1) time                  1
+                         (  2) height                2
+                         (  3) longitude             3
+                         (  4) latitude              4
+                         (  5) velocity              5
+                         (  6) fl.path angle         6
+                         (  7) heading               7
+                         (  8) alpha_ground          8
+                         (  9) sigma_ground         10
+                         ( 10) Etot                 44
+                         ( 11) dnav                 45
+                         ( 12) heading error        67
+                         ( 13) CL_vertical          68
+                         ( 14) deltab_trim          71
+                         ( 15) deltae_trim          72
+                         ( 16) Mach number          96
+                         ( 17) qdyn                 98
+                         ( 18) dE/dalpha,i         192
+                         ( 19) MJD                 271
+                         ( 20) GMST                272

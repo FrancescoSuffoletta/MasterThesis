@@ -1,0 +1,2 @@
+cmp_nw_0146	PINNv3	wind=False	MemoryError: Unable to allocate 5.40 MiB for an array with shape (40, 1105) and data type <U32
+cmp_nw_0147	PINNv3_baseline	wind=False	MemoryError: Unable to allocate 377. KiB for an array with shape (6, 503) and data type <U32
